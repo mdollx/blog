@@ -1,0 +1,19 @@
+<title>My WebDev Blog</title>
+<header><img src="main/banner.jpg"></header>
+  <body ng-controller="MainCtrl">
+     <div class="container">
+     
+      <p>This blog was built using AngularJS front end and Firebase for it's backend CMS and database.</p>
+      
+     <div class="list-group" ng-repeat="article in articles">
+    <a href="#" onclick="return false;" class="list-group-item active">
+        <h4 class="list-group-item-heading">{{article.title}}</h4>
+        <p class="list-group-item-text">{{article.date}}</p>
+        <p class="list-group-item-text">{{article.post}}</p>
+  </a>
+</div>
+ <footer class="footer">
+      <div class="container">
+        <p class="text-muted"></p>
+      </div>
+    </footer>

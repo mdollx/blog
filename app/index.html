@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+
+<html lang="en" ng-app="myApp" class="no-js">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>My AngularJS App</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="bootstrap.min.css">
+  <link rel="stylesheet" href="app.css">
+  <link href="http://getbootstrap.com/examples/signin/signin.css" rel="stylesheet">
+  <link href="https://getbootstrap.com/examples/justified-nav/justified-nav.css" rel="stylesheet">
+
+  <script src="https://code.jquery.com/jquery-2.0.1.min.js"></script>
+ <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+ <div class="blog-masthead">
+  <ul class="nav nav-pills">
+        <nav class="blog-nav">
+        <ul class="nav nav-pills">
+  <li role="presentation" class="active"><a href="#/welcome">Home</a></li>
+  <li role="presentation" class="active"><a href="#/addPost">Add Post</a></li>
+  <li role="presentation" class="active"><a href="#/login">Log In</a></li>
+  <li role="presentation" class="active"><a href="#/register">Register</a></li>
+  
+</ul>       
+        </nav>
+       
+      </div>
+    </div>
+    </head>
+   
+<body>
+
+  <div ng-view></div>
+  
+<script src="bower_components/angular/angular.js"></script>
+  <script src="bower_components/angular-route/angular-route.js"></script>
+<script src="https://cdn.firebase.com/js/client/2.0.4/firebase.js"></script>
+<script src="https://cdn.firebase.com/libs/angularfire/0.9.0/angularfire.min.js"></script>
+<script src="https://cdn.firebase.com/js/simple-login/1.6.2/firebase-simple-login.js"></script>
+  <script src="app.js"></script>
+  <script src="main/main.js"></script>
+  <script src="login/login.js"></script>
+  <script src="register/register.js"></script>
+  <script src="welcome/welcome.js"></script>
+  <script src="addPost/addPost.js"></script>
+  <script src="components/version/version.js"></script>
+  <script src="components/version/version-directive.js"></script>
+  <script src="components/version/interpolate-filter.js"></script>
+</body>
+</html>

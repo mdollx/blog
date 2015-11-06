@@ -1,0 +1,86 @@
+/* app css stylesheet */
+body {
+    background-image: url("http://hubofallthings.com/wp-content/themes/speedy/images/default-fullscreen-background.jpg");
+    background-size: 100%;
+
+}
+.menu {
+  list-style: none;
+  border-bottom: 0.1em solid black;
+  margin-bottom: 2em;
+  padding: 0 0 0.5em;
+}
+
+.menu:before {
+  content: "[";
+}
+
+.menu:after {
+  content: "]";
+}
+
+.menu > li {
+  display: inline;
+}
+
+.menu > li:before {
+  content: "|";
+  padding-right: 0.3em;
+}
+
+.menu > li:nth-child(1):before {
+  content: "";
+  padding: 0;
+}
+
+header {
+  text-align: center;
+}
+
+header img {
+  width: 600px;
+  height: 130px;
+  box-shadow: 6px 6px 3px #888888;
+  margin-top: 40px;
+  margin-bottom: 15px;
+  -moz-border-radius: 15px;
+   border-radius: 15px;
+}
+
+.blog-nav {
+  margin-left: 500px;
+}
+ h1 {
+  text-align: center;
+ }
+
+ h2  {
+  text-align: center;
+  font-size: 12px;
+ }
+
+ h4{
+  font-size: 18px;
+  text-decoration: underline;
+ }
+
+ p {
+  font-size: 14px;
+  text-align: center;
+ }
+
+.list-group {
+  margin-left: 210px;
+  width: 700px;
+  padding-top: 40px;
+
+}
+
+.list-group p {
+  text-align: left;
+  color: #000000;
+}
+
+.list-group-item {
+  color: #f9f9f9;
+}
